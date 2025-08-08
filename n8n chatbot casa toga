@@ -1,0 +1,6 @@
+ <guión tipo="módulo"> importar { crear chat } de 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+crear chat({
+	webhookUrl: 'http://localhost:5678/webhook/4b1cbcc2-7225-48fb-9714-f0976ef2d2f8/chat'
+});
+</guión>
